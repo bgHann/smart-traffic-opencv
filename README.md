@@ -1,28 +1,30 @@
-# Smart Traffic OpenCV
+# 🚦 Smart Traffic OpenCV
 
-Đây là repo lưu các bài tập nhỏ môn **Giao thông Thông minh** sử dụng **Python + OpenCV**.
+Đây là repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **Python + OpenCV**.
 
 ---
 
-### CV1 – Chuyển ảnh sang đen trắng
-- Đọc ảnh và chuyển sang grayscale.
-- File: `cv1_grayscale.py`
+## 📘 Bài tập
 
-### CV2 – Chèn khung + tên sinh viên vào ảnh
-- Vẽ khung chữ nhật vàng ở giữa ảnh, chèn tên sinh viên màu đỏ.
-- File: `add_name_to_image.py`
+### CV1 – Chuyển ảnh sang đen trắng
+- Đọc ảnh từ file, chuyển sang grayscale và hiển thị.
+- 📄 File: `cv1_grayscale/cv1_grayscale.py`
+
+### CV2 – Vẽ khung và tên sinh viên
+- Vẽ khung chữ nhật màu vàng ở giữa ảnh và ghi tên sinh viên màu đỏ.
+- 📄 File: `cv2_draw_name/cv2_draw_name.py`
+
+### CV3 – Nhận diện và đánh số xe hơi
+- Dùng Haar Cascade (`cars.xml`) để nhận diện xe trong ảnh, vẽ khung và đánh số thứ tự.
+- 📄 File: `cv3_car_detection/cv3_car_numbering.py`
+- 📂 Dùng chung ảnh `car3.jpg` và mô hình `cars.xml`
 
 ---
 
 ## ⚙️ Yêu cầu
 
-- Python 3
-- OpenCV: `pip install opencv-python`
-
----
-
-## ▶️ Cách chạy
+- Python 3.x
+- Cài thư viện OpenCV:
 
 ```bash
-python cv1_grayscale.py
-python add_name_to_image.py
+pip install opencv-python
