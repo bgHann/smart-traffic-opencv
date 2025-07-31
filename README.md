@@ -1,4 +1,4 @@
-# 🚦 Smart Traffic OpenCV
+#  Smart Traffic OpenCV
 
 Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **Python + OpenCV**.
 
