@@ -1,7 +1,7 @@
 import cv2
 
 # Đọc ảnh
-image = cv2.imread(r"D:\GIAHAN\CN2304CLCA\QTQN-CNTT\car3.jpg")
+image = cv2.imread("D:\GIAHAN\CN2304CLCA\smart-traffic-opencv\cv2_draw_name\car3.jpg")
 if image is None:
     print("Không tìm thấy ảnh, vui lòng kiểm tra lại")
     exit()

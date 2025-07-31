@@ -1,7 +1,7 @@
 import cv2
 
 # Bước 1: Đọc ảnh từ file
-image_path = "D:\GIAHAN\CN2304CLCA\QTQN-CNTT/car3.jpg"
+image_path = "D:\GIAHAN\CN2304CLCA\smart-traffic-opencv\cv1_grayscale\car3.jpg"
 
 # Thay bằng tên ảnh của bạn (nên để cùng thư mục với file .py)
 image = cv2.imread(image_path)
