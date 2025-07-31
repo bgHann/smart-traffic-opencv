@@ -10,7 +10,7 @@
 
 ### CV2 – Chèn khung + tên sinh viên vào ảnh
 - Vẽ khung chữ nhật vàng ở giữa ảnh, chèn tên sinh viên màu đỏ.
-- File: `add_name_to_image.py`
+- File: `cv2_draw_name.py`
 
 ---
 
