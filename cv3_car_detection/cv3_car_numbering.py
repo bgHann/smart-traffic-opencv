@@ -3,7 +3,6 @@ import cv2
 # Load mô hình Haar cascade nhận diện xe
 car_cascade = cv2.CascadeClassifier("D:\GIAHAN\CN2304CLCA\smart-traffic-opencv\cv3_car_detection\cars.xml")
 
-# Đọc ảnh
 image = cv2.imread("D:\GIAHAN\CN2304CLCA\smart-traffic-opencv\cv2_draw_name\car3.jpg")
 if image is None:
     print("Không tìm thấy ảnh!")
