@@ -21,4 +21,4 @@ Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **
 
 ```bash
 cd <thư mục>
-python <tên file>.py
+py <tên file>.py
