@@ -1,6 +1,5 @@
 import cv2
 
-# Đọc ảnh
 image = cv2.imread("D:\GIAHAN\CN2304CLCA\smart-traffic-opencv\cv2_draw_name\car3.jpg")
 if image is None:
     print("Không tìm thấy ảnh, vui lòng kiểm tra lại")
@@ -16,10 +15,7 @@ bottom_right = (3 * w // 4, 3 * h // 4)
 # Vẽ khung màu vàng
 cv2.rectangle(image, top_left, bottom_right, (0, 255, 255), 3)
 
-# Nội dung chữ
 text = "Bui Gia Han"
-
-# Font và cỡ chữ
 font = cv2.FONT_HERSHEY_SIMPLEX
 font_scale = 1
 thickness = 2
@@ -34,7 +30,6 @@ y_text = top_left[1] + (bottom_right[1] - top_left[1] + text_height) // 2
 # Viết chữ màu đỏ
 cv2.putText(image, text, (x_text, y_text), font, font_scale, (0, 0, 255), thickness)
 
-# Hiển thị kết quả
 cv2.imshow("Ảnh kết quả", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
