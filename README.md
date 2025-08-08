@@ -12,8 +12,15 @@ Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **
 
 ### CV3 – Nhận diện & đánh số xe
 - 📄 File: `cv3_car_detection/cv3_car_numbering.py`
+- 
+### car-tracking-assignment 
+- 📄 File: `car-tracking-assignment\cv2.3-code\car_tracking.py`
+- Yêu cầu:
+- Đếm số lượng xe xuất hiện trong video
 
-## ⚙️ Yêu cầu
+- Đánh chỉ số cho các xe phát hiện được trên khung hình
+
+## ⚙ Yêu cầu
 - Python 3
 - OpenCV: `pip install opencv-python`
 
