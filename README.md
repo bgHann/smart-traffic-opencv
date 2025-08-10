@@ -4,14 +4,19 @@ Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **
 
 ## 📘 Bài tập
 
-### CV1 – Chuyển ảnh sang đen trắng
+### CV1.1 – Chuyển ảnh sang đen trắng
 - 📄 File: `cv1_grayscale/cv1_grayscale.py`
 
-### CV2 – Vẽ khung và tên sinh viên
+### CV1.2 – Vẽ khung và tên sinh viên
 - 📄 File: `cv2_draw_name/cv2_draw_name.py`
 
-### CV3 – Nhận diện & đánh số xe
+### CV1.3 – Nhận diện & đánh số xe
 - 📄 File: `cv3_car_detection/cv3_car_numbering.py`
+### car-tracking-assignment - Yêu cầu:
+
+- Đếm số lượng xe xuất hiện trong video
+
+- Đánh chỉ số cho các xe phát hiện được trên khung hình
 
 ## ⚙️ Yêu cầu
 - Python 3
