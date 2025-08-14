@@ -1,0 +1,5 @@
+<routes>
+    <flow id="phandinhphung" type="car_red" from="1185183964#0" to="32577828#6" begin="0" end="3600" vehsPerHour="1000"/>
+    <flow id="hoangvanthu" type="car_yellow" from="1197853015#2" to="32577828#6" begin="0" end="3600" vehsPerHour="1000"/>  
+    <flow id="phanvanluu" type="car_green" from="1262095917#6" to="32577828#6" begin="0" end="3600" vehsPerHour="1000"/>  
+</routes>
