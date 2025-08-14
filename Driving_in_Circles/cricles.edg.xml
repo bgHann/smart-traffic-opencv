@@ -1,6 +1,0 @@
-<edges>
-    <edge id="0to1" from="0" to="1" numLanes="1" speed="13.9"/>
-    <edge id="1to2" from="1" to="2" numLanes="1" speed="13.9"/>
-    <edge id="2to3" from="2" to="3" numLanes="1" speed="13.9"/>
-    <edge id="3to0" from="3" to="0" numLanes="1" speed="13.9"/>
-</edges>
