@@ -12,7 +12,7 @@ Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **
 
 ### CV1.3 – Nhận diện & đánh số xe
 - 📄 File: `cv3_car_detection/cv3_car_numbering.py`
-- 
+  
 ### car-tracking-assignment 
 - 📄 File: `car-tracking-assignment\cv2.3-code\car_tracking.py`
 - Yêu cầu:
@@ -25,11 +25,23 @@ Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **
 - OpenCV: `pip install opencv-python`
 
 ## ▶️ Cách chạy
-
 ```bash
 cd <thư mục>
 py <tên file>.py
 
 ```
-### SUMO 
--   Thư mục chứa các mô phỏng giao thông
+### HELLOSUMO
+- Thư mục chứa các mô phỏng giao thông
+  <Hello_sumo> : Thư mục check mô phỏng
+  <Drving_in_Circles> Vẽ mô phỏng chạy theo hình tròn
+  <2.1phu_nhuan> Chuẩn bị dữ liệu đường Ngã tư Phú Nhuận cho mô phỏng,
+  Dòng 1: Hướng vào Nguyễn Kiệm từ đường Phan Đình Phùng, lưu lượng 500 xe/h, xe màu đỏ
+
+    Dòng 2: Hướng vào Nguyễn Kiệm từ Hoàng Văn Thụ, lưu lượng 500 xe/h, xe màu vàng
+
+   Dòng 3: Hướng vào Nguyễn Kiệm từ  Phan Đăng Lưu, lưu lượng 500 xe/h, xe màu xanh lá
+  ## ▶️ Cách chạy
+```bash
+cd <HELLOSUMO> cd<thư mục>
+sumo-gui -c <tên file>.sumocfg 
+
