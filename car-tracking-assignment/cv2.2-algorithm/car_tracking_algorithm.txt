@@ -1,0 +1,49 @@
+Bắt đầu chương trình
+
+1. Nạp mô hình Haar Cascade để nhận diện xe.
+2. Mở tệp video chứa cảnh đường phố.
+
+3. Nếu video được mở thành công:
+      Đọc khung hình đầu tiên.
+   Ngược lại:
+      Thoát chương trình.
+
+4. Khởi tạo:
+      - Danh sách các vùng xe đang theo dõi = rỗng.
+      - Bộ đếm số khung hình = 0.
+
+5. Lặp qua từng khung hình trong video:
+      a. Đọc khung hình tiếp theo.
+
+      b. Giảm kích thước khung hình nhằm tăng tốc xử lý.
+
+      c. Phát hiện các đối tượng có khả năng là xe bằng Haar Cascade.
+
+      d. Tạo danh sách vùng mới (newRegions) = rỗng.
+
+      e. Với mỗi vùng được phát hiện:
+            - Bỏ qua nếu vùng nằm quá cao (ít khả năng là xe).
+            - Tách phần ảnh trong vùng để phân tích.
+            - Tính độ đối xứng trái–phải và trên–dưới của vùng bằng MSE.
+            - Nếu các giá trị đối xứng nằm trong khoảng cho phép:
+                  → Quy đổi tọa độ về kích thước gốc.
+                  → Thêm vào danh sách newRegions.
+
+      f. Với mỗi vùng trong newRegions:
+            - Nếu đây là vùng mới (không gần bất kỳ vùng nào trong danh sách hiện tại):
+                  → Thêm vào danh sách đang theo dõi.
+
+      g. Vẽ khung đỏ quanh tất cả các vùng trong danh sách theo dõi.
+
+      h. Tăng bộ đếm số khung hình lên 1.
+         Nếu bộ đếm > 30:
+               → Xóa toàn bộ danh sách theo dõi.
+               → Đặt bộ đếm về 0.
+
+      i. Hiển thị khung hình kết quả.
+
+6. Sau khi hết video:
+      - Giải phóng tài nguyên video.
+      - Đóng cửa sổ hiển thị.
+
+Kết thúc chương trình.
