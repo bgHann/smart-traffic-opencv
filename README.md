@@ -30,5 +30,6 @@ Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **
 cd <thư mục>
 py <tên file>.py
 
-### HELLO SUMO
-- Thư mục chứ các mô phỏng giao thông 
+```
+### SUMO 
+-   Thư mục chứa các mô phỏng giao thông
