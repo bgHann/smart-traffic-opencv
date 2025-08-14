@@ -1,4 +1,4 @@
-#  Smart Traffic OpenCV
+#  Smart Traffic OpenCV Sumo
 Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **Python + OpenCV + Sumo** 
 ## 📘 Bài tập
 ### CV1.1 – Chuyển ảnh sang đen trắng
