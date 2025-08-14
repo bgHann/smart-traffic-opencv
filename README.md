@@ -29,3 +29,6 @@ Repo lưu các bài tập nhỏ môn **Giao thông Thông minh**, sử dụng **
 ```bash
 cd <thư mục>
 py <tên file>.py
+
+### HELLO SUMO
+- Thư mục chứ các mô phỏng giao thông 
